@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trap Guard</title>
+    <link rel="icon" type="image/svg+xml" href="https://cdn.glitch.global/49f1545c-1777-4293-8ff2-9af51d3df28c/trap.svg?v=1691057846547">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+    <link rel="stylesheet" href="styles">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navlist">
+        <li class="navlist">
+          <a href="/">
+            <img src="https://cdn.glitch.global/49f1545c-1777-4293-8ff2-9af51d3df28c/trap.svg?v=1691057846547" class="prinavitem">
+          </a>
+        </li>
+        <li class="navlist">
+          <a href="/arras/arras#host=trap-guard.glitch.me" class="prinavitem">PLAY</a>
+        </li>
+        <li class="navlist">
+          <a href="/changelogs" class="navitem">CHANGELOG</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- 
+    
+    -->
+<!--
+1/07/24
+- Fixed Sharpshooter so that it actually branches from Sniper.
+- Added the Sprinkler branch, from Auto-Basic and Flank Guard.
+- Added Drizzler, branching from Sprinkler and Hexa.
+- Added Aerosol, branching from Sprinkler and Storm.
+- Added Flankception, branching from Sprinkler and Auto-Flank Guard.
+- Added Duster, branching from Sprinkler and Tri-Trapper.
+- Added Quencher, branching from Sprinkler and Snowstorm.
+-->
+    <h1>Trap Guard Changelog</h1>
+    <div class="textonbg">
+      <h2>
+        <strong>IMPORTANT</strong>
+      </h2>
+      <ul>
+        <li>An update has been pushed which makes this changelog obsolete.</li>
+        <li>You can view the new one <a href="/arras/arras#host=trap-guard.glitch.me">here.</a></li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        2/8/23 - The Tempest
+      </h2>
+      <ul>
+        <li>Added Snowstorm, branching from Flank Guard and Machine Gun.</li>
+        <li>Auto-4 and Cyclone now also branch from Tri-Chipper and Snowstorm.</li>
+        <li>Added Blizzard, branching from Hexa Tank and Snowstorm.</li>
+        <li>Added Milligun, branching from Minigun and Snowstorm.</li>
+        <li>Lowered Foreman's drone count to 4.</li>
+        <li>Added Inflator, branching from Slammer and Honcho.</li>
+        <li>Nerfed sentry health.</li>
+        <li>Added Sweeper, branching from Unloader, Tri-Angle and Tri-Chipper.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        29/7/23 - Twin = Gunner (mini update)
+      </h2>
+      <ul>
+        <li>Reverted sentries and added a new one.</li>
+        <li>Removed sentries and shape collisions.</li>
+        <li>Removed Twin-2, and renamed Twin-4 to Auto-4.</li>
+        <li>Fixed Launcher's abysmal damage.</li>
+        <li>Changed skill cap back to Level 45.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        28/7/23 - Bullet Hell
+      </h2>
+      <ul>
+        <li>Removed Revolutionist branch.</li>
+        <li>Machinefire no longer branches from Gunner.</li>
+        <li>Adjusted Chipper branch stats, upgrades and design.</li>
+        <li>Overtrapper and Overgunner now also branch from Dependency.</li>
+        <li>Added Gusto, branching from Basebrid and Chipper.</li>
+        <li>Added Dynamic, branching from Gusto, Gunner, Twinbrid and Discharger.</li>
+        <li>Added Alacrity, branching from Gusto and Chiseler.</li>
+        <li>Added Tri-Chipper, branching from Flank Guard and Chipper.</li>
+        <li>Added Penta-Chipper, branching from Tri-Chipper.</li>
+        <li>Added Chipshot, branching from Chipper.</li>
+        <li>Rimfire now also branches from Chipshot.</li>
+        <li>Added Band Saw, branching from Chipshot and Chiseler.</li>
+        <li>Added Naturalist, branching from Chiseler and Gunner.</li>
+        <li>Silo now also branches from Hunter.</li>
+        <li>Nerfed g.hunter2's health.</li>
+        <li>Minigun now also branches from Subduer.</li>
+        <li>Added Pulsegun, branching from Hunter, Sprayer and Minigun.</li>
+        <li>Added Uzi, branching from Twin and Subduer.</li>
+        <li>Added Macrogun, branching from Uzi, Triple Shot and Minigun.</li>
+        <li>Added Trojan, branching from Mitochondrion and Uzi.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        25/7/23 - Ratatata (mini update)
+      </h2>
+      <ul>
+        <li>Changed Diesel Trapper to properly use g.bitmach.</li>
+        <li>Changed Machine Gun barrel designs.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        24/7/23 - No destroyer upgrade?
+      </h2>
+      <ul>
+        <li>Changed Big Cheese's design.</li>
+        <li>Nerfed overdrone's speed but made them more damaging.</li>
+        <li>Nerfed Beta and Alpha Pentagons.</li>
+        <li>Hopefully fixed crashers not taking damage.</li>
+        <li>Changed Annihilator's design dramatically.</li>
+        <li>Added Slammer, branching from Pounder.</li>
+        <li>Annihilator now also branches from Slammer.</li>
+        <li>Added Banger, branching from Slammer.</li>
+        <li>Added Excavator, branching from Obliterator and Slammer.</li>
+        <li>Added Demolisher, branching from Destroyer.</li>
+        <li>Renamed g.anni to g.slam.</li>
+        <li>Incorporated styles.css into the webpages.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        22/7/23 - my new legoe set :&gt;
+      </h2>
+      <ul>
+        <li>Tweaked the Fault branch's stats.</li>
+        <li>Added the Reverse Tank function. (V to toggle.)</li>
+        <li>Whittler no longer uses g.single, instead g.whittle.</li>
+        <li>Added Assembler, branching from Director and Trapper.</li>
+        <li>Added Fabricator, branching from Overseer and Assembler.</li>
+        <li>Added Bacteria, branching from Underseer and Assembler.</li>
+        <li>Added Manufacturer, branching from Builder, Assembler and Honcho.</li>
+        <li>Added Mega Assembler, branching from Mega Trapper, Assembler and Honcho.</li>
+        <li>Added Assemblank, branching from Assembler.</li>
+        <li>Added Contractor, branching from Motor, Mech and Assembler.</li>
+        <li>Added Fitter, branching from Chairman and Assembler.</li>
+        <li>Added Originator, branching from Bipolar and Assembler.</li>
+        <li>Added Deviser, branching from Toiler and Assembler.</li>
+        <li>Added Ballista, branching from Chiseler, Trap Guard and Assembler.</li>
+        <li>Possibly many other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        21/7/23 - Do you have some time to talk about our lord and saviour, the Summoner?
+      </h2>
+      <ul>
+        <li>Added Converter, branching from Underseer.</li>
+        <li>Added Exerter, branching from Motor and Underseer.</li>
+        <li>Added Jumper, branching from Pounder and Propeller.</li>
+        <li>Added Leaper, branching from Destroyer and Jumper.</li>
+        <li>Gleamer now also branches from Jumper.</li>
+        <li>Barricade now branches from Machine Trapper instead of Trapper.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        11/7/23 - *Jumps awaye* (mini update)
+      </h2>
+      <ul>
+        <li>Tweaked Basebrid and branches' drone stats.</li>
+        <li>Added Donut, branching from Destroyer, in its restrained form. Hollow bullets just ain't possible.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        12/7/23 - Trapper update?
+      </h2>
+      <ul>
+        <li>Added Battery, branching from Gunner and Conjoin.</li>
+        <li>Nailgun now also branches from Gatling Gun and Trespasser</li>
+        <li>Added Silo, branching from Assassin, Minigun and Gatling Gun.</li>
+        <li>Fixed up the statnames.trap usage.</li>
+        <li>Added Machine Trapper, branching from Machine Gun and Trapper.</li>
+        <li>Added Diesel Trapper, branching from Machine Trapper and Diesel.</li>
+        <li>Added Toiler, branching from Trapper.</li>
+        <li>Added Artificer, branching from Toiler.</li>
+        <li>Added Craftsman, branching from Builder and Toiler.</li>
+        <li>Added Inhibitor, branching from Trap Guard and Toiler.</li>
+        <li>Added Laborer, branching from Tri-Trapper and Toiler.</li>
+        <li>Added Snarer, branching from Machine Trapper and Toiler.</li>
+        <li>Added Technician, branching from Mech and Toiler.</li>
+        <li>Mech now has a max trap count.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        2/7/23 - *Flys awaye* (mini update)
+      </h2>
+      <ul>
+        <li>Added Gleamer, branching from Tri-Angle and Unloader.</li>
+        <li>Unloader now also branches from Flank Guard.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        1/7/23 - (forgot something [mini update])
+      </h2>
+      <ul>
+        <li>Added another Battle Pod boss, Battlerock.</li>
+        <li>Carbine and Bliterator now have Obliterator's body stats.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        30/6/23 - Grab your bags. We're here.
+      </h2>
+      <ul>
+        <li>Tweaked Baltimore and the Productionist's barrel design.</li>
+        <li>Tweaked Malfunction's design.</li>
+        <li>Tweaked g.product to fix the speedy swarmions.</li>
+        <li>Cascade no longer branches from Cruiser.</li>
+        <li>Replaced Quasar by four new bosses - <strong>Panic Pod, Battle Shuck, Lola and War Pod.</strong></li>
+        <li>These are obviously inspired by the Battle Pod from Woomy-Arras.</li>
+        <li>Fixed Beta and Alpha pentagons not spawning (not sure about alpha though.)</li>
+        <li>Cleaned up the faulty drone code.</li>
+        <li>Added Kamikaze, branching from Cruiser and Fault.</li>
+        <li>Fixed an error with g.prop and g.propel. (g.prop did not exist!)</li>
+        <li>Communicator's (radio?) main sniper turret has a delay for more accuracy.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        29/6/23 - Road Trip!!! We're going to war. (mini update)
+      </h2>
+      <ul>
+        <li>Tweaked g.propel and g.thruster a bit, and modified their uses.</li>
+        <li>Added Overtaker, branching from Transporter and Overseer.</li>
+        <li>Added Undertaker, branching from Transporter and Underseer.</li>
+        <li>Plans are being made for some new bosses.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        27/6/23 - Warkwawawawaarrkrkwawarkar
+      </h2>
+      <ul>
+        <li>Added Wark, branching from Trapper and Twin.</li>
+        <li>Added Waarrk, branching from Triple Shot and Wark.</li>
+        <li>Added Warkwark, branching from Double Twin and Wark.</li>
+        <li>Added Equalizer, branching from Gunner and Wark.</li>
+        <li>Added Conjoin, branching from Chipper and Twin.</li>
+        <li>Added Fuse, branching from Triple Shot and Conjoin.</li>
+        <li>Triplet now also branches from Conjoin.</li>
+        <li>Added Conjoined Double, branching from Conjoin and Double Twin.</li>
+        <li>Added Walrk, branching from Conjoin and Wark.</li>
+        <li>Rimfire now also branches from Conjoin.</li>
+        <li>Added Double Guard, branching from Double Twin.</li>
+        <li>Bulwark and Hexa-Trapper now also branches from Wark.</li>
+        <li>Added Mega Trapper, branching from Pounder and Trapper.</li>
+        <li>Added Giga Trapper, branching from Destroyer and Mega Trapper.</li>
+        <li>Constructor now also branches from Mega Trapper.</li>
+        <li>Added Work, branching from Wark, Heavy Twin and Mega Trapper.</li>
+        <li>Added Repository, branching from Tri-Trapper and Mega Trapper.</li>
+        <li>Tweaked the barrel design of Blaster, Furnace, Dispenser, Activist and Splasher.</li>
+        <li>Activist now also branches from Blaster.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        24/6/23 - Drone limits tweaked (mini update)
+      </h2>
+      <ul>
+        <li>Tweaked the drone limits of various drone tanks.</li>
+        <li>Changed the stats of Spreadshot and Swarmer slightly.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        22/6/23 - Auto-2 Update
+      </h2>
+      <ul>
+        <li>Added Auto-Auto-2, branching from Auto-2 and Auto-Basic.</li>
+        <li>Auto-Auto-3 now also branches from Auto-Auto-2.</li>
+        <li>Renamed Floppy to Arbiter.</li>
+        <li>Added Moderator, branching from Auto-Auto-2 and Negotiator.</li>
+        <li>Added Auto-Twin-2, branching from Auto-Auto-2 and Twin-2.</li>
+        <li>Added Communicator, branching from Auto-Auto-2.</li>
+        <li>Added Auto-Mega-2, branching from Mega-2 and Auto-Auto-2.</li>
+        <li>Tiny Quasar can no longer spawn. I will integrate another way for it to spawn.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        21/6/23 - Small fix and new tanks (mini update)
+      </h2>
+      <ul>
+        <li>Added scope to the other Hunter branches.</li>
+        <li>Temporaily removed background image.</li>
+        <li>Added Tranquilizer, branching from Subduer and Ambusher.</li>
+        <li>Steamboat now also branches from Flank Guard.</li>
+        <li>Added Trailblazer, branching from Steamboat and Tri Trapper.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        19/6/23 - Hewn double looked really weird... Also servos
+      </h2>
+      <ul>
+        <li>Changed up Hewn Double's barrel configuration and made it also upgrade from Unloader.</li>
+        <li>Added Tanker, upgrading from Steamboat and Unloader.</li>
+        <li>Also tweaked Unloader's stats.</li>
+        <li>Added Servo Type-B, branching from Auto-Basic.</li>
+        <li>Added Servo Type-F, branching from Servo Type-B.</li>
+        <li>Replaced Servo Type-2F with Servo Type-2B, which no longer branches from Double Twin,
+          now also branching from Servo.</li>
+        <li>Airscrew now also branches from Servo Type-B.</li>
+        <li>Added Automaton, branching from Minigun and Servo Type-B.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        14/6/23 - Hey you dropped something *dies* (mini update)
+      </h2>
+      <ul>
+        <li>Added Unloader, branching from Propeller.</li>
+        <li>Bomber now also branches from Unloader.</li>
+        <li>Added Geoengineer (not to be confused with Engineer), branching from Unloader. This includes a new type of cannon.</li>
+        <li>
+          <strong>
+            Due to time constraints, this update is very small. I will try to get a more sizable update next time.
+          </strong>
+        </li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>
+        11/6/23 - Hybrids everywhere!!
+      </h2>
+      <ul>
+        <li>Fixed navigation bar and polished it up a little bit. (added smooth transitions)</li>
+        <li>Added Auto-Auto-3, branching from Auto-3 and Auto-Flank Guard.</li>
+        <li>Added Replenisher, branching from Basebrid and Flank Guard.</li>
+        <li>Banshee now also branches from Replenisher.</li>
+        <li>Added Woodsman, branching from Subduer and Basebrid.</li>
+        <li>Poacher now also branches from Woodsman.</li>
+        <li>Renamed Mini Quasar to Tiny Quasar.</li>
+        <li>Added another counterpart of Tiny Quasar, Tinipul, branching from Replenisher and Woodsman.</li>
+        <li>While there is plans for another "Quasar" Tank, I am lazy so it will happen a few days from now.</li>
+        <li>Tweaked the Subduer branch's recoil a bit. </li>
+        <li>Funneler now also branches from Multishot.</li>
+        <li>Added Buckshot, branching from Obliterator and Multishot.</li>
+        <li>Added Restocker, branching from Dependency and Replenisher.</li>
+        <li>Added Infestor and Tamer, both of which branch from Underseer.</li>
+        <li>Director's Page 2 now can also upgrade to Manager.</li>
+        <li>Added another tank "description" in the main page.</li>
+        <li>Added placeholder background image to the webpage.</li>
+        <li>I will attempt to code in bullet effects soon.</li>
+        <li>Other changes i forgor.</li>
+      </ul>
+    </div>
+    <div class="textonbg">
+      <h2>10/6/23 - Subduer Update?!?! (Also some weird tanks)</h2>
+        <ul>
+          <li>Moved changelog to a webpage.</li>
+          <li>Changed up the webpage layout a bit. (added navigation bar!)</li>
+          <li>Split Tiny Quasar into 2 parts, Tiniqua and Tinisar.</li>
+          <li>Added Auto-Flank Guard, branches from Auto-Basic and Flank Guard.</li>
+          <li>Added Subduer, braching from Basic.</li>
+          <li>Hunter now also branches from Subduer.</li>
+          <li>Added Flank Subduer, branching from Flank Guard and Subduer.</li>
+          <li>Tiniqua and Tinisar now also branch from Auto-Flank Guard.</li>
+          <li>Tinisar also branches from Flank Subduer.</li>
+          <li>Added Autocrat, branching from Hexa Tank and Auto-Flank Guard.</li>
+          <li>Added Typhoon, branching from Hexa Tank and Flank Subduer.</li>
+          <li>Split the upgrades of Basic and Director into 2 pages. Might do this for other upgrades in the future.</li>
+          <li>Added Mitochondrion, branching from Subduer.</li>
+          <li>Added Cytochrome, branching from Mitochondrion.</li>
+          <li>Predator now also branches from Mitochondrion.</li>
+          <li>Added Subduer-2, branching from Auto-2 and Subduer.</li>
+          <li>Added Subduer-3, branches from Auto-3, Flank Subduer and Subduer-2.</li>
+          <li>Added Subjugator, branching from Subduer.</li>
+          <li>Added Prion, branching from Mitochondrion and Subjugator.</li>
+          <li>Added Sub-2-Due, branching fom Subduer-2 and Subjugator.</li>
+          <li>Added Funneler, branching from Subjugator.</li>
+          <li>Added Nimrod, branching from Hunter and Assassin.</li>
+          <li>Added scoping capabilities. (Original code from Vallidom) Currently does not broadcast any special message.</li>
+          <li>
+            <strong>
+              However, the upgrade tree broke. Possibly too many tanks.
+              It is heavily advised to not use the tree, as it messes up your mouse.
+            </strong>
+          </li>
+          <li>Added changelog titles.</li>
+          <li>Added Servo Type-2F, a experimental tank branching off of Double Twin and Negotiatior.</li>
+          <li>Other changes i forgor.</li>
+        </ul>
+    </div>
+    <div class="textonbg">
+      <h2>9/6/23 - First Changelog</h2>
+        <ul>
+          <li>Added changelog.</li>
+          <li>Fixed boss spawning and added Quasar and Supernova, two new bosses.</li>
+          <li>Added Autwo-Basic, branching from Auto-Basic.</li>
+          <li>Added Tiny Quasar, branching from Autwo-Basic. Will soon branch from the Flank Guard branch.
+           (just haven't added Auto-Flank Guard.)</li>
+          <li>Temporaily removed Vessel and its branches to work out some balancing.</li>
+          <li>Changed webpage colour scheme.</li>
+          <li>Other changes i forgor.</li>
+        </ul>
+        
+    </div>
+    <p>
+      <br>
+    </p>
+    <div class="footnote">
+      <p>
+        made by H[w]WT. (2023)
+      </p>
+    </div>
+  </body>
+</html>
+
+
+
+ 
+ 

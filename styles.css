@@ -1,0 +1,157 @@
+html {
+  font-family: Ubuntu;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  /*background-image: url("https://cdn.glitch.global/49f1545c-1777-4293-8ff2-9af51d3df28c/Screen%20Shot%202023-06-11%20at%203.09.26%20429pm.png?v=1686460203667");*/
+  background-color: #99bdf7;
+  background-attachment: fixed;
+  color: white;
+}
+body {
+  background-color: #5c98f7;
+  margin: 0px auto;
+  margin-left: 17.5%;
+  margin-bottom: 80px;
+  text-align: center;
+  width: 75%;
+}
+h1 {
+  color: white;
+  background-color: #4287f5;
+  padding: 25px 15px;
+  font-size: 50px;
+  vertical-align: middle;
+}
+.textonbg {
+  background-color: #4287f5;
+  border-radius: 15px;
+  padding: 15px;
+  width: 50%;
+  margin: 15px auto;
+}
+p {
+  width: 50%;
+  margin: auto;
+}
+button {
+  width: 20%;
+  padding: 20px 10px;
+  margin: 15px;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-weight: 700;
+  border-radius: 15px;
+  font-size: 16px;
+  color: white;
+  border: 5px solid #3b86ff;
+  background-color: #4287f5;
+  transition: 0.5s;
+}
+button:hover {
+  width: 25%;
+  padding: 24px 12px;
+  font-size: 18px;
+  border: 5px solid #3680f7;
+  background-color: #4089ff;
+  box-shadow: 0 12px 16px 0 #5c98f7, 0 17px 50px 0 #5c98f7;
+  cursor: pointer;
+}
+.footnote {
+  background-color: #7aa9f5;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: 550;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 100px;
+}
+ul,
+li {
+  margin: 5px;
+  text-align: left;
+  background-color: #5c98f7;
+  border-radius: 15px;
+  padding: 2.5px;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover {
+  font-weight: 800;
+}
+inline {
+  display: inline-block;
+}
+
+nav {
+  width: 100px;
+  position: fixed;
+  /*padding: 15px;*/
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #5c98f7;
+}
+img {
+  width: 100px;
+  /*
+  left: 5px;
+  top: 5px;
+  */
+  display: block;
+  text-align: left;
+}
+.icon {
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  width: 75px;
+}
+.prinavitem {
+  margin: 20px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 24px;
+  background-color: #4287f5;
+  transition: 0.5s;
+  color: white;
+}
+.prinavitem:hover {
+  background-color: #4089ff;
+  width: 140px;
+  font-size: 30px;
+  /*animation-name: navhover;
+          animation-duration: 1s;
+          animation-timing-function: ease-out;*/
+}
+.navitem {
+  margin: 20px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #4089ff;
+  transition: 0.5s;
+  color: white;
+}
+.navitem:hover {
+  background-color: #5c98f7;
+  width: 140px;
+  font-size: 18px;
+  /*animation-name: navhover;
+          animation-duration: 1s;
+          animation-timing-function: ease-out;*/
+}
+
+.navlist {
+  background-color: transparent;
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+
